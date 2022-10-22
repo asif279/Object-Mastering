@@ -13,5 +13,22 @@ const normalPerson ={
 }
 //console.log(normalPerson);
 //console.log(normalPerson.getFullName);
-normalPerson.chargeBill(5000);
-console.log(normalPerson.salary);
+//normalPerson.chargeBill(5000);
+//console.log(normalPerson.salary);
+
+const herPer ={
+    firstName:'Hero',
+    lastName: 'jamal',
+    salary:1500
+
+}
+const herPer1 ={
+    firstName:'Heror',
+    lastName: 'jamalr',
+    salary:15600
+
+}
+const herPe=  normalPerson.chargeBill.bind(herPer);
+herPe(300);
+herPe(50);
+ 
