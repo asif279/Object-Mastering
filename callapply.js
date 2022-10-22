@@ -28,7 +28,12 @@ const herPer1 ={
     salary:15600
 
 }
-const herPe=  normalPerson.chargeBill.bind(herPer);
-herPe(300);
-herPe(50);
+// const herPe=  normalPerson.chargeBill.bind(herPer);
+// herPe(300);
+// herPe(50);
+// normalPerson.chargeBill.call(herPer,500);
+// console.log(herPer.salary);
+// normalPerson.chargeBill.apply(herPer1,[9500]);
+// console.log(herPer1.salary);
+
  
